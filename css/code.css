@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	@import url('https://fonts.googleapis.com/css?family=Roboto');
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size:14px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+	body{
+		margin: 0 auto;
+		width: 98%;
+		min-width:320px;
+		background: black;
+		padding: 2px 0;
+	}
+	
+	#divMain{
+		background: white;
+		height: 100vh;
+		border-radius: 15px;
+		padding: 10px;
+	}
+	
+	#divLog{
+		margin: 0 auto;
+		width: 80%;
+		min-width:300px;
+		height: 130px;
+		background: red;
+		border-radius: 15px;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	.liMenu{
+		display: inline-table;
+		list-style-type:none;
+		background: blue;
+		width: 40%;
+		float:center;
+		margin: 5px 10px;
+	}
+}
+
+
+
+
+
+
